@@ -1,0 +1,87 @@
+
+/**********  MENU ASIDE  ***********/
+.aside{
+    width: 15%;
+    background-color:hsla(0, 0%, 0%, 0.788);
+    height: 100vh;
+    position: fixed;
+    left: 0;
+  
+}
+.logo{
+    margin-top: 50px;
+    text-align: center;
+}
+.logo-img{
+    width: 40%;
+    border-radius: 50%;
+    opacity: 0.8;
+}
+.opciones{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.btn{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    margin-bottom: 10px;
+    border: none;
+    background:none;
+    color: rgb(255, 255, 255);
+    font-size: 1em;
+    
+}
+.btn:hover{
+    background-color: #3fb9b93f;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.active{
+    background-color: #3fb9b9e3;
+    border-radius: 5px;
+}
+
+
+@media screen and (max-width:600px) {
+    .aside{
+        background-color: rgba(165, 62, 62, 0.493);
+    }
+}
+
+/**********  Cuerpo  ***********/
+.main{
+    position: absolute;
+    width: 85%;
+    height: 100vh;
+    right: 0;
+    background-color: rgba(60, 147, 168, 0.212);
+}
+
+.header{
+    background-color: hsla(175, 29%, 60%, 0.527);
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-right: 50px;
+    padding-left: 50px; 
+}
+
+.header > p{
+    font-size: 1em;
+}
+
+
+    
+/********  Secciones *****/
+.secciones{    
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 50px;
+    padding-left: 50px;
+    overflow-y: scroll;
+    height: 80vh;
+}

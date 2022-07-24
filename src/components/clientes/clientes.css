@@ -1,0 +1,113 @@
+
+/*****  SECCION TIENDA *****/
+.m-left-20{
+    margin-left: 20px;
+}
+.btn-options{
+    padding: 10px 30px;
+    border-radius: 7px;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.507);
+    background-color: rgb(119, 184, 228);
+    cursor: pointer;
+    font-size: 0.9em;
+    margin-top: 15px;
+}
+.btn-options:hover{
+    background-color:rgb(209, 232, 248);
+}
+
+.busqueda-cliente{
+    margin-top: 30px;
+    background-color: hsla(175, 29%, 60%, 0.527);
+    padding: 20px;
+    border-radius: 20px;
+}
+.btn-buscar{
+    margin-top: 10px;
+    margin-right: 20px;
+    padding: 10px 30px;
+    border-radius: 7px;
+    outline: none;
+    background-color: rgba(199, 222, 241, 0.788);
+    box-shadow: 0px 0px 5px rgba(252, 252, 252, 0.144);
+    border: 1px solid rgb(0, 0, 0);
+    font-size: 1em;
+}
+
+
+.info{
+    margin-top: 30px;
+    background-color: hsla(175, 29%, 60%, 0.527);
+    padding-top: 20px;
+    padding-bottom: 30px;
+    border-radius: 20px;
+}
+.informacion{
+    display: flex;
+    padding: 20px;
+}
+.mas-info{
+    margin-bottom: 5px;
+}
+.btn-info{
+    margin-top: 20px;
+}
+.info-left{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+.info-rigth{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-left: 60px;
+}
+
+/***** TABLAS */
+.tablas{
+    width: 100%;
+    text-align: start;
+    border-collapse: collapse;
+    
+}
+.table-th{
+    font-weight: bold;
+    font-size: 17px;
+    height: 40px;
+    padding-left: 40px;
+}
+.table-td{
+    height: 40px;
+    padding-left: 40px;
+    border: 1px solid rgb(119, 117, 117);
+}
+tr:hover{
+    background-color: #55f09b33;;
+}
+
+.color:nth-child(even){
+    background-color: #55f09b9c; 
+}
+.edit{
+    background: rgb(127, 86, 155);
+    padding: 10px 20px;
+    margin-top:5px;
+    border-radius: 10px;
+    
+}
+.edit:hover{
+    cursor: pointer;
+    background: rgb(169, 127, 197);
+
+}
+.form-img{
+    border-radius: 10px;
+    width: 80%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.desactive-img{
+    display: none;  
+}
